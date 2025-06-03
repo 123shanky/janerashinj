@@ -48,11 +48,3 @@ document.addEventListener('DOMContentLoaded', () => {
     image.parentNode.replaceChild(link, image);
   });
 });
-// JavaScript for Hamburger Menu
-document.getElementById('nav-toggle').addEventListener('click', function() {
-    const navMenu = document.getElementById('nav-menu');
-    navMenu.classList.toggle('active');
-    
-    // Animate hamburger
-    this.classList.toggle('active');
-});
