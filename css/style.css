@@ -1,3 +1,37 @@
+/* Critical Mobile Fix - Add this to top of your CSS */
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* Fix for all containers */
+.container, .hero, .registration-highlight, .highlights {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Mobile text sizing */
+body {
+    font-size: 16px; /* Minimum for mobile */
+}
+
+/* Responsive images */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+
 /* Reset and Base Styles */
 * {
   margin: 0;
